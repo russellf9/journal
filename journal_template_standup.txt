@@ -1,0 +1,6 @@
+Standup
+Yesterday I achieved:
+
+Today I will achieve:
+
+@standup

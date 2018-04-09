@@ -1,0 +1,18 @@
+# journal
+function jrnl_settings() {
+  code -a ~/.jrnl_config
+}
+function jrnl_standup() {
+    jrnl stand-up < ~/Documents/journal/journal_template_standup.txt
+    jrnl stand-up -1 --edit
+}
+
+# others
+open_bash () {
+	code ~/.bash_profile
+}
+
+# Simply refreshes the Bash profile
+function reload_bash_profile() {
+  . ~/.bash_profile
+}
