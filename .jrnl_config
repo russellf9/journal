@@ -1,0 +1,20 @@
+{
+  "default_hour": 9, 
+  "linewrap": 79, 
+  "encrypt": false, 
+  "default_minute": 0, 
+  "tagsymbols": "@", 
+  "editor": "code -w", 
+  "timeformat": "%Y-%m-%d %H:%M", 
+  "highlight": true, 
+  "journals": {
+    "default": {
+      "journal": "~/Documents/journal/journal.txt", 
+      "encrypt": false
+    },
+    "stand-up": {
+      "journal": "~/Documents/journal/journal-stand-up.txt", 
+      "encrypt": false
+    }
+  }
+}

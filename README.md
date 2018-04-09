@@ -8,11 +8,11 @@ Found [jrnl](http://jrnl.sh/index.html) to be a decent solution and created this
 
 ## Setup
 
-* Added an extra Journal for Standup
+* Added an extra Journal for Standup ()
 * Added some functions to be added to the `bash-profile`
-    * Load the Journal Settings
-    * Load a new `jrnl_standup` Journal entry
-* Added a template file for the Standup Journal
+    * Load the Journal Settings - `jrnl_settings`
+    * Open a new Journal entry - `jrnl_standup`
+* Added a template file for the Standup Journal - `journal_template_standup.txt`
 
 ## Installation
 
@@ -22,6 +22,9 @@ Found [jrnl](http://jrnl.sh/index.html) to be a decent solution and created this
 
 Add the bash functions
 Update the `jrnl_config`
+
+Make a directory to hold the Journals
+`mkdir ~/Documents/journal`
 
 Add the new template file
 
